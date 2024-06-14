@@ -1,0 +1,10 @@
+<Configuration>
+<Remove OfficeClientEdition="64">
+<Product ID="VisioProRetail">
+<Language ID="en-us"/>
+<Language ID="nl-nl"/>
+</Product>
+</Remove>
+<Property Name="FORCEAPPSHUTDOWN" Value="TRUE" />
+<Display Level="None" AcceptEULA="TRUE"/>
+</Configuration>

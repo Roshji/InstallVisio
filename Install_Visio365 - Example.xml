@@ -1,0 +1,20 @@
+<Configuration ID="fd2c30ac-3142-4c27-b9c8-8723b04335f5">
+<!-- Use the following line if Office 365 is NOT installed -->
+<Add OfficeClientEdition="64" SourcePath="%Temp%">
+<!-- Use the following line if Office 365 is already installed and need to match version -->
+<!-- <Add Version="MatchInstalled" SourcePath="%Temp%"> -->
+<Product ID="VisioProRetail">
+<!-- START Select NL and EN only, or choose all currently installed languages-->
+<Language ID="en-us"/>
+<Language ID="nl-nl"/>
+<!-- <Language ID="MatchInstalled" TargetProduct="All"/> -->
+<!-- END Select NL and EN only, or choose all currently installed languages-->
+<ExcludeApp ID="Groove" />
+<ExcludeApp ID="Lync" />
+<ExcludeApp ID="Bing" />
+</Product>
+</Add>
+<Property Name="FORCEAPPSHUTDOWN" Value="TRUE" />
+<Updates Enabled="TRUE" />
+<Display Level="Full" AcceptEULA="TRUE" />
+</Configuration>

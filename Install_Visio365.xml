@@ -1,0 +1,14 @@
+<Configuration ID="fd2c30ac-3142-4c27-b9c8-8723b04335f5">
+<Add OfficeClientEdition="64">
+<Product ID="VisioProRetail">
+<Language ID="en-us"/>
+<Language ID="nl-nl"/>
+<ExcludeApp ID="Groove" />
+<ExcludeApp ID="Lync" />
+<ExcludeApp ID="Bing" />
+</Product>
+</Add>
+<Property Name="FORCEAPPSHUTDOWN" Value="TRUE" />
+<Updates Enabled="TRUE" />
+<Display Level="None" AcceptEULA="TRUE" />
+</Configuration>
